@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EpcryptGUI.exe" size="13792">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EpcryptGUI.exe" size="13280">
       <assemblyIdentity name="EpcryptGUI" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>u/Csr+0onVLi+iMmd+vJq4uv3FVV9+GWqN9lN553gyk=</dsig:DigestValue>
+        <dsig:DigestValue>GXcyTfWzZFiQw4km3+fEMfSAPn1DhHS2yO+I+N3IrhQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

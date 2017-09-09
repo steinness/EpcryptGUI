@@ -152,9 +152,9 @@
 			this.label3.ForeColor = System.Drawing.Color.White;
 			this.label3.Location = new System.Drawing.Point(100, 9);
 			this.label3.Name = "label3";
-			this.label3.Size = new System.Drawing.Size(181, 36);
+			this.label3.Size = new System.Drawing.Size(176, 36);
 			this.label3.TabIndex = 11;
-			this.label3.Text = "EpcryptGUI 1.0";
+			this.label3.Text = "EpcryptGUI 1.1";
 			// 
 			// Epcrypt
 			// 
@@ -177,7 +177,7 @@
 			this.MinimumSize = new System.Drawing.Size(400, 400);
 			this.Name = "Epcrypt";
 			this.ShowIcon = false;
-			this.Text = "EpcryptGUI 1.0";
+			this.Text = "EpcryptGUI 1.1";
 			this.ResumeLayout(false);
 			this.PerformLayout();
 

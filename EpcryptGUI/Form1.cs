@@ -13,21 +13,26 @@ namespace EpcryptGUI {
 		public Epcrypt() {
 			InitializeComponent();
 		}
-		
-		private void decryptBox_CheckedChanged(object sender, EventArgs e) {
-			if (decryptCheck.Checked == true){
-				encryptBox.Checked = false;
-				textToEncryptDecryptLabel.Text = "Text to decrypt: ";
-			}
-			else {
-				encryptBox.Checked = true;
-			}
+
+		// Function for updating all the boxes because im lazy ;)
+		public void Update() {
 			if (encryptBox.Checked == true) {
 				textBox2.Text = EpcryptCMD.Encrypt(passwordBox.Text, textBox1.Text, false);
 			}
 			else {
 				textBox2.Text = EpcryptCMD.Decrypt(passwordBox.Text, textBox1.Text, false);
 			}
+		}
+
+		private void decryptBox_CheckedChanged(object sender, EventArgs e) {
+			if (decryptCheck.Checked == true) {
+				encryptBox.Checked = false;
+				textToEncryptDecryptLabel.Text = "Text to decrypt: ";
+			}
+			else {
+				encryptBox.Checked = true;
+			}
+			Update();
 		}
 
 		private void encryptBox_CheckedChanged(object sender, EventArgs e) {
@@ -38,39 +43,19 @@ namespace EpcryptGUI {
 			else {
 				decryptCheck.Checked = true;
 			}
-			if (encryptBox.Checked == true) {
-				textBox2.Text = EpcryptCMD.Encrypt(passwordBox.Text, textBox1.Text, false);
-			}
-			else {
-				textBox2.Text = EpcryptCMD.Decrypt(passwordBox.Text, textBox1.Text, false);
-			}
+			Update();
 		}
 
 		private void textBox1_TextChanged(object sender, EventArgs e) {
-			if (encryptBox.Checked == true) {
-				textBox2.Text = EpcryptCMD.Encrypt(passwordBox.Text, textBox1.Text, false);
-			}
-			else {
-				textBox2.Text = EpcryptCMD.Decrypt(passwordBox.Text, textBox1.Text, false);
-			}
+			Update();
 		}
 
 		private void textBox2_TextChanged(object sender, EventArgs e) {
-			if (encryptBox.Checked == true) {
-				textBox2.Text = EpcryptCMD.Encrypt(passwordBox.Text, textBox1.Text, false);
-			}
-			else {
-				textBox2.Text = EpcryptCMD.Decrypt(passwordBox.Text, textBox1.Text, false);
-			}
+			Update();
 		}
 
 		private void passwordBox_TextChanged(object sender, EventArgs e) {
-			if (encryptBox.Checked == true) {
-				textBox2.Text = EpcryptCMD.Encrypt(passwordBox.Text, textBox1.Text, false);
-			}
-			else {
-				textBox2.Text = EpcryptCMD.Decrypt(passwordBox.Text, textBox1.Text, false);
-			}
+			Update();
 		}
 	}
 }

@@ -12,3 +12,16 @@ C:\Users\vegar\source\repos\EpcryptGUI\EpcryptGUI\bin\Debug\EpcryptGUI.exe.manif
 C:\Users\vegar\source\repos\EpcryptGUI\EpcryptGUI\bin\Debug\EpcryptGUI.application
 C:\Users\vegar\source\repos\EpcryptGUI\EpcryptGUI\obj\Debug\EpcryptGUI.exe.manifest
 C:\Users\vegar\source\repos\EpcryptGUI\EpcryptGUI\obj\Debug\EpcryptGUI.application
+C:\Users\vegar\Documents\Github\EpcryptGUI\EpcryptGUI\bin\Debug\EpcryptGUI.exe.config
+C:\Users\vegar\Documents\Github\EpcryptGUI\EpcryptGUI\bin\Debug\EpcryptGUI.exe.manifest
+C:\Users\vegar\Documents\Github\EpcryptGUI\EpcryptGUI\bin\Debug\EpcryptGUI.application
+C:\Users\vegar\Documents\Github\EpcryptGUI\EpcryptGUI\bin\Debug\EpcryptGUI.exe
+C:\Users\vegar\Documents\Github\EpcryptGUI\EpcryptGUI\bin\Debug\EpcryptGUI.pdb
+C:\Users\vegar\Documents\Github\EpcryptGUI\EpcryptGUI\obj\Debug\EpcryptGUI.Epcrypt.resources
+C:\Users\vegar\Documents\Github\EpcryptGUI\EpcryptGUI\obj\Debug\EpcryptGUI.Properties.Resources.resources
+C:\Users\vegar\Documents\Github\EpcryptGUI\EpcryptGUI\obj\Debug\EpcryptGUI.csproj.GenerateResource.Cache
+C:\Users\vegar\Documents\Github\EpcryptGUI\EpcryptGUI\obj\Debug\EpcryptGUI.csproj.CoreCompileInputs.cache
+C:\Users\vegar\Documents\Github\EpcryptGUI\EpcryptGUI\obj\Debug\EpcryptGUI.exe.manifest
+C:\Users\vegar\Documents\Github\EpcryptGUI\EpcryptGUI\obj\Debug\EpcryptGUI.application
+C:\Users\vegar\Documents\Github\EpcryptGUI\EpcryptGUI\obj\Debug\EpcryptGUI.exe
+C:\Users\vegar\Documents\Github\EpcryptGUI\EpcryptGUI\obj\Debug\EpcryptGUI.pdb
