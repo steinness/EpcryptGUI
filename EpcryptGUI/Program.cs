@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace EpcryptGUI {
 	public class EpcryptCMD {
@@ -83,6 +84,28 @@ namespace EpcryptGUI {
 				decryptedText += Dchar(shift, Convert.ToString(character), unicode);
 			}
 			return decryptedText;
+		}
+
+		// For encrypting files
+		public static void EncryptFile(string password, string filepath, bool unicode) {
+			string newFilepath = filepath.Insert((filepath.IndexOf('.')), "_e");
+
+			foreach (string line in File.ReadLines(filepath)) {
+				string encryptedLine = Encrypt(password, line, unicode);
+				File.AppendAllText(newFilepath, encryptedLine);
+				File.AppendAllText(newFilepath, "\n\r");
+			}
+		}
+
+		// For decrypting files
+		public static void DecryptFile(string password, string filepath, bool unicode) {
+			string newFilepath = filepath.Insert((filepath.IndexOf('.')), "_d");
+
+			foreach (string line in File.ReadLines(filepath)) {
+				string decryptedLine = Decrypt(password, line, unicode);
+				File.AppendAllText(newFilepath, decryptedLine);
+				File.AppendAllText(newFilepath, "\n\r");
+			}
 		}
 
 		// For generating a shift number from string
