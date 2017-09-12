@@ -139,11 +139,6 @@
             "AssemblyAsmDisplayName" = "8:System.Net.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
                 "ScatterAssemblies"
                 {
-                    "_7E770979488FEB1407BC0941626DD90A"
-                    {
-                    "Name" = "8:System.Net.Http.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:System.Net.Http.dll"
             "TargetName" = "8:"
@@ -219,15 +214,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:EpcryptGUI"
-        "ProductCode" = "8:{D9EB55B4-A19C-4697-902A-AC46D2ADA403}"
-        "PackageCode" = "8:{2EB319D6-F479-427F-9927-0402A5C3F0E4}"
+        "ProductCode" = "8:{D10423CA-6000-4B48-9971-6ED066D46F2A}"
+        "PackageCode" = "8:{A8CA849B-80B6-46AB-AF37-27AEB9CF53F6}"
         "UpgradeCode" = "8:{98F800BA-3B01-4B3C-B371-305A976F4C37}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:2.0"
+        "ProductVersion" = "8:2.1"
         "Manufacturer" = "8:Vegard Steinnes"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"

@@ -39,6 +39,7 @@
 			this.encryptDecryptFile = new System.Windows.Forms.Button();
 			this.label4 = new System.Windows.Forms.Label();
 			this.doneLabel = new System.Windows.Forms.Label();
+			this.label5 = new System.Windows.Forms.Label();
 			this.SuspendLayout();
 			// 
 			// textBox1
@@ -91,7 +92,7 @@
 			this.encryptBox.Checked = true;
 			this.encryptBox.CheckState = System.Windows.Forms.CheckState.Checked;
 			this.encryptBox.ForeColor = System.Drawing.Color.White;
-			this.encryptBox.Location = new System.Drawing.Point(12, 35);
+			this.encryptBox.Location = new System.Drawing.Point(15, 72);
 			this.encryptBox.Name = "encryptBox";
 			this.encryptBox.Size = new System.Drawing.Size(104, 24);
 			this.encryptBox.TabIndex = 4;
@@ -102,7 +103,7 @@
 			// decryptCheck
 			// 
 			this.decryptCheck.ForeColor = System.Drawing.Color.White;
-			this.decryptCheck.Location = new System.Drawing.Point(12, 54);
+			this.decryptCheck.Location = new System.Drawing.Point(15, 91);
 			this.decryptCheck.Name = "decryptCheck";
 			this.decryptCheck.Size = new System.Drawing.Size(104, 24);
 			this.decryptCheck.TabIndex = 5;
@@ -134,7 +135,7 @@
 			// 
 			this.label1.AutoSize = true;
 			this.label1.ForeColor = System.Drawing.Color.White;
-			this.label1.Location = new System.Drawing.Point(184, 138);
+			this.label1.Location = new System.Drawing.Point(203, 138);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(160, 26);
 			this.label1.TabIndex = 9;
@@ -155,11 +156,11 @@
 			this.label3.AutoSize = true;
 			this.label3.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label3.ForeColor = System.Drawing.Color.White;
-			this.label3.Location = new System.Drawing.Point(100, 9);
+			this.label3.Location = new System.Drawing.Point(96, 18);
 			this.label3.Name = "label3";
-			this.label3.Size = new System.Drawing.Size(185, 36);
+			this.label3.Size = new System.Drawing.Size(180, 36);
 			this.label3.TabIndex = 11;
-			this.label3.Text = "EpcryptGUI 2.0";
+			this.label3.Text = "EpcryptGUI 2.1";
 			// 
 			// openFileDialog1
 			// 
@@ -168,7 +169,7 @@
 			// 
 			// selectFile
 			// 
-			this.selectFile.Location = new System.Drawing.Point(12, 88);
+			this.selectFile.Location = new System.Drawing.Point(206, 88);
 			this.selectFile.Name = "selectFile";
 			this.selectFile.Size = new System.Drawing.Size(75, 21);
 			this.selectFile.TabIndex = 12;
@@ -178,7 +179,7 @@
 			// 
 			// encryptDecryptFile
 			// 
-			this.encryptDecryptFile.Location = new System.Drawing.Point(106, 88);
+			this.encryptDecryptFile.Location = new System.Drawing.Point(297, 88);
 			this.encryptDecryptFile.Name = "encryptDecryptFile";
 			this.encryptDecryptFile.Size = new System.Drawing.Size(75, 21);
 			this.encryptDecryptFile.TabIndex = 13;
@@ -199,11 +200,22 @@
 			// 
 			this.doneLabel.AutoSize = true;
 			this.doneLabel.ForeColor = System.Drawing.Color.White;
-			this.doneLabel.Location = new System.Drawing.Point(187, 92);
+			this.doneLabel.Location = new System.Drawing.Point(272, 112);
 			this.doneLabel.Name = "doneLabel";
 			this.doneLabel.Size = new System.Drawing.Size(31, 13);
 			this.doneLabel.TabIndex = 15;
 			this.doneLabel.Text = "        ";
+			// 
+			// label5
+			// 
+			this.label5.AutoSize = true;
+			this.label5.ForeColor = System.Drawing.Color.White;
+			this.label5.Location = new System.Drawing.Point(203, 72);
+			this.label5.Name = "label5";
+			this.label5.Size = new System.Drawing.Size(118, 13);
+			this.label5.TabIndex = 16;
+			this.label5.Text = "For encrypting text files:";
+			this.label5.Click += new System.EventHandler(this.label5_Click);
 			// 
 			// Epcrypt
 			// 
@@ -211,6 +223,7 @@
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
 			this.ClientSize = new System.Drawing.Size(384, 411);
+			this.Controls.Add(this.label5);
 			this.Controls.Add(this.doneLabel);
 			this.Controls.Add(this.label4);
 			this.Controls.Add(this.encryptDecryptFile);
@@ -230,7 +243,7 @@
 			this.MinimumSize = new System.Drawing.Size(400, 450);
 			this.Name = "Epcrypt";
 			this.ShowIcon = false;
-			this.Text = "EpcryptGUI 2.0";
+			this.Text = "EpcryptGUI 2.1";
 			this.Load += new System.EventHandler(this.Epcrypt_Load);
 			this.ResumeLayout(false);
 			this.PerformLayout();
@@ -255,6 +268,7 @@
 		private System.Windows.Forms.Button encryptDecryptFile;
 		private System.Windows.Forms.Label label4;
 		private System.Windows.Forms.Label doneLabel;
+		private System.Windows.Forms.Label label5;
 	}
 }
 

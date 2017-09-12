@@ -31,6 +31,7 @@ namespace EpcryptGUI {
 				encryptBox.Checked = false;
 				textToEncryptDecryptLabel.Text = "Text to decrypt: ";
 				encryptDecryptFile.Text = "Decrypt file";
+				label5.Text = "For decrypting text files:";
 			}
 			else {
 				encryptBox.Checked = true;
@@ -43,6 +44,7 @@ namespace EpcryptGUI {
 				decryptCheck.Checked = false;
 				textToEncryptDecryptLabel.Text = "Text to encrypt: ";
 				encryptDecryptFile.Text = "Encrypt file";
+				label5.Text = "For encrypting text files:";
 			}
 			else {
 				decryptCheck.Checked = true;
@@ -86,6 +88,10 @@ namespace EpcryptGUI {
 		}
 
 		private void Epcrypt_Load(object sender, EventArgs e) {
+
+		}
+
+		private void label5_Click(object sender, EventArgs e) {
 
 		}
 	}
